@@ -1,3 +1,11 @@
+@import 'global/normalize',
+
+		'components/slider';
+		
+
+
+
+
 /* Adjustment */
 
 html {
@@ -62,12 +70,12 @@ a {
 /* Fonts */
 @font-face {
 	font-family: Adamant;
-	src: url('assets/fonts/PF Adamant Pro-Regular.otf');
+	src: url('../fonts/PF Adamant Pro-Regular.otf');
 }
 
 @font-face {
 	font-family: Raleway;
-	src: url('assets/fonts/Raleway-Regular.otf');
+	src: url('../fonts/Raleway-Regular.otf');
 }
 
 /* Header */
