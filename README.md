@@ -1,6 +1,6 @@
 Webstore Frontend project
 ---
 
-Originally designed by Natalia Podoroga
+Designed by Natalia Podoroga
 
 [View site on GP](https://lazukinpavel.github.io/Imagetorg/)
