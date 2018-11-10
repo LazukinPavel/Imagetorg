@@ -1,10 +1,5 @@
 @import 'global/normalize',
-
 		'components/slider';
-		
-
-
-
 
 /* Adjustment */
 
@@ -22,12 +17,15 @@ body {
 
 .wrapper {
 	min-height: 100%;
+	min-width: 320px;
 	overflow: hidden;
 	position: relative;
 }
 
-.container {
-	width: 940px;
+.container_main {
+	width: 90%;
+	max-width: 940px;
+	height: 100%;
 	margin: 0 auto;
 }
 
@@ -85,25 +83,57 @@ a {
 .header__top {
 	width: 100%;
 	height: 30px;
+	color: #fff;
 	background-color: #8c0001;
 }
 
-.top-menu_left li {
-	float: left;
-}
-
-.top-menu_right li {
-	float: right;
-}
-
-.header__top .menu__item {
-	display: inline-block;
-	padding: 6px 15px 0;
+.header__top-wrapper {
+	display: flex;
+	justify-content: space-between;
 	height: 30px;
+	.menu__link {
+		line-height: 30px;
+	}
 }
 
-.header__top .menu__item:hover {
-	background:#c90e0e;
+.navbar {
+	padding: 0;
+	.navbar-collapse {
+		height: auto;
+	}
+	.navbar-toggler {
+		padding: 0 25px;
+	    height: 100%;
+	    width: 100%;
+	    color: inherit;
+	    text-align: left;
+	}
+}
+
+.menu__list {
+	display: flex;
+	height: 100%;
+	li {
+		padding: 0 10px;
+	}
+}
+
+.menu__link {
+	display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.top-menu_left {
+	// min-width: 25%;
+}
+
+.header__top .menu__item{
+	background-color: #8c0001; 
+	&:hover {
+		background-color: #c90e0e;
+	}
 }
 
 .header__top .menu__link {
@@ -118,12 +148,17 @@ a {
 	 margin: 25px 0;
 }
 
+.header__middle_wrapper {
+	display: flex;
+	justify-content: center;
+}
+
 .header__logo, .logo__pic_medium, .logo__brandname_medium {
-	float: left;
+	
 }
 
 .header__logo {
-	padding-left: 15px;
+	padding-left: 10px;
 }
 
 .logo__pic_medium {
@@ -139,6 +174,10 @@ a {
 	color: #596072;
 	padding: 9px 0px 0px 20px;
 	margin: 0;
+}
+
+.header__shop-info {
+	display: none;
 }
 
 .header__shop-info, .header__schedule-text {
@@ -282,8 +321,12 @@ a {
 
 /* Main */
 
+.categories__list {
+	width: 100%;
+    display: flex;
+}
+
 .categories__item {
-	float: left;
 	background-color: #FFF;
 	margin-right: 20px;
 	height: 480px;
@@ -351,7 +394,7 @@ a {
 }
 
 .logo {
-	display: inline-block;
+	display: flex;
 }
 
 .logo__pic_small {
@@ -484,3 +527,5 @@ a {
 .button_more:hover {
 	background-color: #9ea30d;
 }
+
+@import 'global/media_queries';
