@@ -4,8 +4,17 @@
 	}
 }
 
-@media (min-width: 768px){
+@media (max-width: 767px){
+	.header__bottom_wrapper {
+		justify-content: flex-end;
+	}
+	.bottom-menu_right {
+		width: 100%;
+	}
+}
+
+@media (min-width: 769px){
 	.header__middle_wrapper {
-		justify-content: auto;
+		justify-content: space-between;
 	}
 }

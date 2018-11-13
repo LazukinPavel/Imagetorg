@@ -1,0 +1,111 @@
+/* FOOTER */
+
+.footer {
+	height: 190px;
+	margin-top: -190px;
+	position: relative;
+}
+
+.footer__wrapper {
+	height: 170px;
+	background-color: #F2F2F2;
+}
+.footer__logo, .footer__nav, .footer__contacts, .footer__nav__column,
+.logo__pic_small, .logo__brandname_small, .phone-number, .phone-icon_small {
+	float: left;
+}
+
+.footer__logo {
+	width: 30%;
+	margin-top: 65px;
+}
+
+.logo {
+	display: flex;
+}
+
+.logo__pic_small {
+	height: 40px;
+	width: 40px;
+}
+
+.logo__brandname_small {
+	font-size: 25px;
+	letter-spacing: 10px;
+	font-family: Adamant;
+	font-weight: 200;
+	color: #596072;
+	padding: 5px 0px 0px 15px;
+}
+
+.footer__nav{
+	width: 48%;
+	padding: 30px;
+	padding-left: 70px;
+}
+
+.footer__nav__column {
+	margin-right: 80px;
+}
+
+.footer__list-name {
+	color: #8c0001;
+	 font-family: Adamant;
+	 font-size: 16px;
+	 margin-bottom: 10px;
+}
+
+.footer__list {
+	margin-top: 10px;
+}
+
+.footer__list-item {
+	padding-top: 4px;
+}
+
+.footer__link {
+	font-family: Raleway; 
+	font-size: 14px;
+	color: #596072;
+}
+
+.footer__link:hover {
+  	color: #9ea30d;
+}
+
+.footer__contacts {
+	width: 22%;
+	padding-top: 65px;
+	float: right;
+}
+
+.phone-icon_small {
+	height: 35px;
+	width: 35px;
+	margin-top: 4px;
+}
+
+.phone-number {
+	float: right;
+	font-family: Adamant;
+	// font-size: 18px;
+	color: #596072;
+	margin-left: 5px;
+}
+
+.copyrights-line {
+	height: 20px;
+	background-color: #8c0001;
+	font-family: Raleway;
+	font-size: 12px;
+	color: #fff;
+	padding-top: 4px;
+}
+
+.copyrights__author-info {
+	float: left;
+}
+
+.copyrights__site-info {
+	float: right;
+}

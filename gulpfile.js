@@ -23,11 +23,13 @@ gulp.task('sass', function(){
 
 //minifying js
 gulp.task('minifyScripts', function() {
-	return gulp.src('src/assets/js/*.js')
-		.pipe(sourcemaps.init())
+	return gulp.src('src/assets/js/app/*.js')
+		.pipe(sourcemaps.init())		
+		.pipe(concat('main.js'))
+		.pipe(gulp.dest('src/assets/js'))
+		.pipe(rename('main.min.js'))
 		.pipe(uglify())
 		.pipe(sourcemaps.write())
-		.pipe(concat('main.min.js'))
 		.pipe(gulp.dest('src/assets/js'))
 		.pipe(browserSync.reload({stream: true}));
 });
@@ -60,7 +62,7 @@ gulp.task('browser-sync', function () {
 //watch
 gulp.task('watch', ['browser-sync', 'sass', 'minifyScripts'], function() {
 	gulp.watch('src/assets/css/**/*.scss', ['sass']);
-	gulp.watch('src/assets/js/main.js', ['minifyScripts']);
+	gulp.watch('src/assets/js/app/*.js', ['minifyScripts']);
 });
 
 //cleaning build folder
