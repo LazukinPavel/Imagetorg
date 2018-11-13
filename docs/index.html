@@ -49,50 +49,18 @@
 								</ul>
 							</div>
 						</nav>
-						<!-- <nav class="top-menu_left">
-							<ul class="menu__list">
-								<li class="menu__item">
-									<a href="#" class="menu__link">
-										<span class="menu__link-text">Главная</span>
-									</a>
-								</li>
-								<li class="menu__item">
-									<a href="#" class="menu__link">
-										<span class="menu__link-text">Магазин</span>
-									</a>
-								</li>
-								<li class="menu__item">
-									<a href="#" class="menu__link">
-										<span class="menu__link-text">Оплата</span>
-									</a>
-								</li>
-								<li class="menu__item">
-									<a href="#" class="menu__link">
-										<span class="menu__link-text">Доставка</span>
-									</a>
-								</li>
-								<li class="menu__item">
-									<a href="#" class="menu__link">
-										<span class="menu__link-text">О нас</span>
-									</a>
-								</li>
-								<li class="menu__item">
-									<a href="#" class="menu__link">
-										<span class="menu__link-text">Контакты</span>
-									</a>
-								</li>
-							</ul>
-						</nav> -->
 						<nav class="top-menu_right">
 							<ul class="menu__list">
 								<li class="menu__item">
 									<a href="#" class="menu__link">
-										<span class="menu__link-text">Личный кабинет</span>
+										<span class="menu__link-text d-md-block">Личный кабинет</span>
+										<i class="menu__link-icon far fa-user d-md-none"></i>
 									</a>
 								</li>
 								<li class="menu__item">
 									<a href="#" class="menu__link">
-										<span class="menu__link-text">История</span>
+										<span class="menu__link-text d-md-block">История</span>
+										<i class="menu__link-icon fas fa-history d-md-none"></i>
 									</a>
 								</li>
 							</ul>
@@ -109,7 +77,7 @@
 								<h1 class="logo__brandname_medium">imagetorg</h1>
 							</a>
 						</div>
-						<div class="header__shop-info d-md-block">
+						<div class="header__shop-info d-md-flex">
 							<div class="header__schedule">
 								<img src="assets/img/icon-clock.png" class="header__schedule-icon">
 								<span class="header__schedule-text">
@@ -131,56 +99,61 @@
 			<div class="header__bottom">
 				<div class="container_main">
 					<div class="separator_horizontal_wide"></div>
-					<nav class="bottom-menu">
-						<ul class="menu__list">
-							<li class="menu__item">
-								<a href="" class="menu__link">
-									<span class="menu__link-text">Галантерея</span>
-								</a>
-								<ul class="menu sub-menu">
-									<li class="menu__item">
-										<a href="" class="menu__link">
-											<span class="menu__link-text">Кошельки</span>
-										</a>
-									</li>
-									<li class="menu__item">
-										<a href="" class="menu__link">
-											<span class="menu__link-text">Сумки</span>
-										</a>
-									</li>
-								</ul>						
-							</li>
-							<li class="menu__item">
-								<a href="" class="menu__link">
-									<span class="menu__link-text">Салон красоты</span>
-								</a>
-							</li>
-							<li class="menu__item">
-								<a href="" class="menu__link">
-									<span class="menu__link-text">3D-печать</span>
-								</a>
-							</li>
-						</ul>
-					</nav>
-					<div class="header__cart">
-						<div class="cart">
-							<a href="" class="cart__link">
-								<img src="assets/img/icon-cart.png" alt="" class="cart__icon">
-							</a> 
-						</div>
-					</div>
-					<div class="separator_vertical"></div>
-					<div class="header__search">
-						<div class="search">
-							<form action="" class="search__form">
-								<input type="text" placeholder="Поиск" class="search__input" onkeyup="buttonUp()">
-								<button type="submit" value="" class="search__submit">
-									<img src="assets/img/icon-search.png" alt="" class="search__icon">	
-								</button>
-								<span class="search__popup_invisible">
-								</span>
-							</form>
-						</div>						
+					<div class="header__bottom_wrapper">
+						<nav class="bottom-menu bottom-menu_left d-md-flex">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="" class="menu__link">
+										<span class="menu__link-text">Галантерея</span>
+									</a>
+									<ul class="menu sub-menu">
+										<li class="menu__item">
+											<a href="" class="menu__link">
+												<span class="menu__link-text">Кошельки</span>
+											</a>
+										</li>
+										<li class="menu__item">
+											<a href="" class="menu__link">
+												<span class="menu__link-text">Сумки</span>
+											</a>
+										</li>
+									</ul>						
+								</li>
+								<li class="menu__item">
+									<a href="" class="menu__link">
+										<span class="menu__link-text">Салон красоты</span>
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="" class="menu__link">
+										<span class="menu__link-text">3D-печать</span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<nav class="bottom-menu bottom-menu_right">
+							<ul class="menu__list">
+								<li class="menu__item header__search">
+									<div class="search menu__link">
+										<form action="" class="search__form">
+											<input type="text" placeholder="Поиск" class="search__input" onkeyup="buttonUp()">
+											<button type="submit" value="" class="search__submit">
+												<img src="assets/img/icon-search.png" alt="" class="search__icon">	
+											</button>
+											<span class="search__popup_invisible">
+											</span>
+										</form>
+									</div>
+									
+								</li>
+								<div class="separator_vertical"></div>
+								<li class="menu__item header__cart">
+									<a href="" class="menu__link">
+										<img src="assets/img/icon-cart.png" alt="" class="cart__icon">
+									</a>									
+								</li>
+							</ul>
+						</nav>
 					</div>
 				</div>
 			</div>
