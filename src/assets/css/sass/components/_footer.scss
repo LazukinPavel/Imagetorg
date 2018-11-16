@@ -1,11 +1,5 @@
 /* FOOTER */
 
-.footer {
-	// height: 190px;
-	// margin-top: -190px;
-	// position: relative;
-}
-
 .footer__bg {
 	background-color: #F2F2F2;
 }
@@ -48,7 +42,6 @@
 }
 
 .footer__nav__column {
-	// min-width: 100px;
 	&:first-child {
 		margin-right: 20px;
 	}
@@ -104,10 +97,3 @@
 	display: flex;
 	justify-content: space-between;
 }
-// .copyrights__author-info {
-	
-// }
-
-// .copyrights__site-info {
-	
-// }

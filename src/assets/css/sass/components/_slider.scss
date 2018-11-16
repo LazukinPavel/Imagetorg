@@ -10,3 +10,32 @@
 		height: 5px;
 	}
 }
+
+.carousel-caption {
+	font-family: Raleway;
+	right: auto;
+	bottom: initial;
+	padding: 20px 10px;
+	h3 {
+		font-size: 45px;
+		font-weight: 800;
+	}
+	p {
+		font-size: 45px;
+	}
+}
+
+.carousel-caption_left {
+	text-align: left;
+	left: 0%;
+}
+
+.carousel-caption_right {
+	text-align: right;
+	right: 0%;
+	left: auto;
+}
+
+.carousel-control-prev, .carousel-control-next {
+	width: 5%;
+}
