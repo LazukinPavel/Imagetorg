@@ -6,9 +6,9 @@
 
 .categories__item {
 	background-color: #FFF;
-	margin-right: 20px;
-	height: 480px;
-	width: 300px;
+	margin-right: 3.5%;
+	// height: 480px;
+	width: 31%;
 	margin-top: -30px;
 	position: relative;
 	box-shadow: 0 3px 10px rgba(0,0,0,0.5);
@@ -19,10 +19,13 @@
 }
 
 .category__link {
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 }
 
 .category__inner-wrapper {
+	display: none;
 	padding: 20px;
 	height: 150px;
 }
@@ -34,6 +37,7 @@
 }
 
 .category__title {
+	display: none;
 	text-align: left;
 	font-family: Adamant;
 	font-size: 28px;
@@ -41,6 +45,12 @@
 	color: #596072;
 	margin: 0;
 	padding-top: 10px;
+}
+
+.category__img {
+	display: none;
+	width: 100%;
+	height: auto;
 }
 
 .category__description {
