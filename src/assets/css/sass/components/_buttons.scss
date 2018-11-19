@@ -27,8 +27,10 @@
     user-select: none;
 }
 
-.button_more:hover {
-	background-color: #9ea30d;
+.button_more, .button_add-to-cart {
+	&:hover {
+		background-color: #9ea30d;
+	}
 }
 
 .button_add-to-cart {
@@ -40,3 +42,19 @@
 	border-radius: 30px;
 	padding: 3px 15px 3px 15px;
 }
+
+.button_to-shop {
+	width: max-content;
+	margin: 0 auto;
+	font-family: Raleway;
+    font-size: 18px;
+    color: $color-opposite;
+    padding: 3px 10px 4px;
+	border-radius: 30px;
+    border: 1px solid $color-opposite;
+    &:hover {
+		color: $color-base;
+		background-color: $color-opposite;
+	}
+}
+
