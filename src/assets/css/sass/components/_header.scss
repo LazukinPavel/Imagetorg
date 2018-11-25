@@ -7,8 +7,8 @@
 .header__top {
 	width: 100%;
 	height: 30px;
-	color: #fff;
-	background-color: #8c0001;
+	color: $color-base;
+	background-color: $color-accent;
 }
 
 .header__top-wrapper {
@@ -56,7 +56,7 @@
 }
 
 .header__top .menu__item{
-	background-color: #8c0001;
+	background-color: $color-accent;
 	margin: auto 0;
 	&:hover {
 		background-color: #c90e0e;
@@ -64,16 +64,16 @@
 }
 
 .header__top .menu__link {
-	color: #fff;
+	color: $color-base;
 	font-family: Raleway;
-	font-size: 14px;
+	font-size: .875rem;
 }
 
 	/* middle */
 
 .header__middle {
 	margin: 25px 0;
-	font-size: 17px;
+	font-size: 1.0625rem;
 	font-family: Adamant;
 }
 
@@ -92,7 +92,7 @@
 }
 
 .logo__brandname_medium	{
-	font-size: 30px;
+	font-size: 1.875rem;
 	letter-spacing: 10px;
 	font-weight: 200;
 	color: $color-additional;
@@ -154,14 +154,14 @@
 
 .header__bottom {
 	.menu__link-text {
-		color: #8c0001;
+		color: $color-accent;
 		font-family: Adamant;
-		font-size: 20px;
+		font-size: 1.25rem;
 		margin: auto;
 	}
 
 	.menu__item {
-		background: #fff;
+		background: $color-base;
 	}
 
 	.menu__item:hover {

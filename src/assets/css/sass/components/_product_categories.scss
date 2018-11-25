@@ -5,7 +5,7 @@
 }
 
 .categories__item {
-	background-color: #FFF;
+	background-color: $color-base;
 	margin-right: 3.5%;
 	width: 31%;
 	margin-top: -30px;
@@ -41,7 +41,7 @@
 	font-family: Adamant;
 	font-size: 3vw;
 	font-weight: 400;
-	color: #596072;
+	color: $color-additional;
 	margin: 0;
 	padding-top: 8%;
 }
@@ -54,6 +54,6 @@
 
 .category__description {
 	font-family: Raleway;
-    font-size: 18px;
-    color: #596072;
+    font-size: 1.125rem;
+    color: $color-additional;
 }

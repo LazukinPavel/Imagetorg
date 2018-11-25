@@ -3,18 +3,18 @@
 /* decoration-elements */
 
 .separator_horizontal {
-	border-bottom: 1px solid #9ea30d;
+	border-bottom: 1px solid $color-opposite;
 	width: 70px;
 }
 
 .separator_horizontal_wide {
-	border-top: 1px solid #808080;
+	border-top: 1px solid $color-additional;
 	box-sizing: content-box;
 }
 
 .separator_vertical {
 	margin: auto 20px;
-	border-right: 1px solid #808080;
+	border-right: 1px solid $color-additional;
 	box-sizing: content-box;
 	height: 25px;
 }

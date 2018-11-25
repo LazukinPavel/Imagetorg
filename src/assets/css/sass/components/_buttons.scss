@@ -7,7 +7,7 @@
 	border: 1px solid white;
 	border-radius: 20px;
 	font-family: Raleway;
-	font-size: 20px;
+	font-size: 1.25rem;
 	margin-top: 10px;
 	&:hover {
 		cursor: pointer;
@@ -18,9 +18,9 @@
 	position: absolute;
     bottom: 20px;
     font-family: Raleway;
-    font-size: 14px;
-    color: #fff;
-    background: #8c0001;
+    font-size: .875rem;
+    color: $color-base;
+    background: $color-accent;
     padding: 3px 10px 3px 10px;
     border-radius: 30px;
     text-decoration: none;
@@ -29,14 +29,14 @@
 
 .button_more, .button_add-to-cart {
 	&:hover {
-		background-color: #9ea30d;
+		background-color: $color-opposite;
 	}
 }
 
 .button_add-to-cart {
 	width: max-content;
 	font-family: Raleway;
-	font-size: 14px;
+	font-size: .875rem;
 	color: $color-base;
 	background: #8c0001;
 	border-radius: 30px;
@@ -47,7 +47,7 @@
 	width: max-content;
 	margin: 0 auto;
 	font-family: Raleway;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: $color-opposite;
     padding: 3px 10px 4px;
 	border-radius: 30px;

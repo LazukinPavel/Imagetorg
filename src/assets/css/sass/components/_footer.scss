@@ -1,7 +1,7 @@
 /* FOOTER */
 
 .footer__bg {
-	background-color: #F2F2F2;
+	background-color: $color-base-tone;
 }
 
 .footer__wrapper {
@@ -28,11 +28,11 @@
 }
 
 .logo__brandname_small {
-	font-size: 25px;
+	font-size: 1.5625rem;
 	letter-spacing: 10px;
 	font-family: Adamant;
 	font-weight: 200;
-	color: #596072;
+	color: $color-additional;
 	padding: 5px 0px 0px 15px;
 }
 
@@ -48,9 +48,9 @@
 }
 
 .footer__list-name {
-	color: #8c0001;
+	color: $color-accent;
 	font-family: Adamant;
-	font-size: 16px;
+	font-size: 1rem;
 	margin-bottom: 10px;
 }
 
@@ -64,12 +64,12 @@
 
 .footer__link {
 	font-family: Raleway; 
-	font-size: 14px;
-	color: #596072;
+	font-size: .857rem;
+	color: $color-additional;
 }
 
 .footer__link:hover {
-  	color: #9ea30d;
+  	color: $color-opposite;
 }
 
 .phone-icon_small {
@@ -81,16 +81,15 @@
 .phone-number {
 	float: right;
 	font-family: Adamant;
-	// font-size: 18px;
-	color: #596072;
+	color: $color-additional;
 	margin-left: 5px;
 }
 
 .copyrights-line {
-	background-color: #8c0001;
+	background-color: $color-accent;
 	font-family: Raleway;
-	font-size: 12px;
-	color: #fff;	
+	font-size: .75rem;
+	color: $color-base;	
 }
 
 .copyrights__wrapper {
